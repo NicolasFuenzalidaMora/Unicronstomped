@@ -1,0 +1,7 @@
+{
+  "name": "UnicronStomped",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
