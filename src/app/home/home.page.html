@@ -11,6 +11,7 @@
     <ion-card-header>
       <ion-title>Usuario</ion-title>
     </ion-card-header>
+    
     <ion-item>
       <ion-select placeholder="Seleccione usuario" [compareWith]="compareWith" [(ngModel)]="user">
         <ion-select-option *ngFor="let usu of users" [value]="usu">{{usu.name}}</ion-select-option>
